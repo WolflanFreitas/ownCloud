@@ -11,7 +11,7 @@ Certifique-se de ter os seguintes softwares instalados:
 
 ## Estrutura do Projeto
 
-```
+```plaintext
 .
 ├── docker-compose.yml
 ├── .env
@@ -26,7 +26,7 @@ Certifique-se de ter os seguintes softwares instalados:
 
 Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis de ambiente:
 
-```
+```env
 OWNCLOUD_VERSION=10.14
 OWNCLOUD_DOMAIN=localhost:8080
 OWNCLOUD_TRUSTED_DOMAINS=localhost
